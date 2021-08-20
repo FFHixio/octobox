@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.7.2'
 
-gem 'rails', '6.1.1'
+gem 'rails', '6.1.4.1'
 gem 'bootstrap'
 gem 'attr_encrypted'
 gem 'jquery-rails'
@@ -40,7 +40,7 @@ group :development, :test do
   gem 'guard'
   gem 'guard-minitest'
   gem 'rails-controller-testing'
-  gem 'sql_queries_count'
+  gem 'sql_queries_count', '>= 0.0.1'
   gem 'active_record_query_trace'
 end
 
