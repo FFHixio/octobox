@@ -20,11 +20,11 @@ gem 'pg_search'
 gem 'jbuilder'
 gem 'rake', require: false
 gem 'rgb'
-gem 'sidekiq'
-gem 'sidekiq-unique-jobs'
-gem 'sidekiq-scheduler', require: false
+gem 'sidekiq', '>= 6.4.0'
+gem 'sidekiq-unique-jobs', '>= 7.1.8'
+gem 'sidekiq-scheduler', '>= 3.1.0', require: false
 gem 'rack-canonical-host'
-gem 'sidekiq-status'
+gem 'sidekiq-status', '>= 2.1.0'
 gem 'gemoji', require: false
 gem 'bootsnap', require: false
 gem 'bugsnag'
