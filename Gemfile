@@ -31,7 +31,7 @@ gem 'bugsnag'
 gem 'jwt'
 gem 'oj'
 gem 'yard', require: false
-gem 'commonmarker'
+gem 'commonmarker', '>= 0.23.4'
 gem 'pg', '1.2.3'
 gem 'rexml'
 
